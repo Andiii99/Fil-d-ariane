@@ -1,187 +1,272 @@
-body{
+*{
     margin: 0;
     padding: 0;
-
-}
-main{
-    background-color: blue;
-}
-/* #####-menu-######## */
-#numero{
-    visibility:hidden;
-}
-nav,ul,li{
-    visibility: hidden;
-}  
-#logo{
-    position: absolute;
-    left: 10px;
-}
-#burger_menu{
-    width: 60px;
-    height: 60px;
+    text-decoration: none;
+    list-style: none;
    
 }
-header{
-    display: flex;
-    flex-direction: row-reverse;
+body{
+     background-color: rgb(0, 106, 255);
 }
-/* ##########-leading-page############### */
-.carre{
-    display: block;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
-    color: white;
-    text-align: center;
-    font-size: 18px;
+
+   
+ 
+/* #logo{
+    position: absolute;
+    top: 10px;
+} */
+
+.navbar {
   
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
-.carre article{
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links ul li{
+    margin: 0 50px;
+    
+}
+.nav-links ul a{
+    color: white;
+}
+#burger{
+    position: absolute;
+    display: none;
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+
+
+/* #############-top-page-############### */
+.f-block div{
+    position: relative;
+    width: 80%;
+    
+    margin: 0 auto;
+}
+
+#livreur{
     width: 100%;
-    height: 900px;
-    border: 2px solid black;
+    height: 100%;
+}
+
+#formulaire{
+    background-color: white;
 }
 h1{
-    text-align: center;
-}
-.texte{
-    padding: 60px;
-}
-.texte button{
     position: absolute;
-    top: 700px;
-    left: 30px;
-    background-color: blue;
-    color: white;
-    width: 200px;
-    padding: 20px;
-    font-size: 20px;
+    z-index: 1;
+   top: 70px;
+   left: 70px;
+   color: white;
+}
+.f-block #first {
+    position: absolute;
     
-    cursor: pointer;
-}
-#top-page {
-    position: relative;
-    background-image: url("../images/envoi-colis.jpg");
-}
-/* #########formulaire########### */
-#formulaire{
-    display: block;
-    background-color: white;
+    top: 140px;
+    left: 20px;
     padding: 50px 0;
-}
+    color: white;
     
-
-#form img{
-   width: 100px;
-   height: 100px;
 }
-#deuxieme_titre{
-    color: black;
+.f-block #second {
+    position: absolute;
+    
+    top: 250px;
+    left: 20px;
+    padding: 50px 0;
+    color: white;
+    
 }
-#paragraph{
+/* #######formulaire##### */
+ #truck{
+     width: 100px;
+    height: 100px;
+    margin: 5% 30%;
+ }
+ form{
+   
+     margin: 10% ;
+    }
+    
+ #prenom{
+     padding: 15px;
+    background-color: rgb(175, 175, 175);
+    border-style: none;
+    font-weight: 800;
+    width: 80%;
+}
+#telephone{
+    padding: 15px;
+    background-color: rgb(175, 175, 175);
+    border-style: none;
+    font-weight: 800;
+    margin-top: 20px;
+    width: 80%;
+    
+} 
+#services{
+    padding: 15px;
+    background-color: rgb(175, 175, 175);
+    border-style: none;
+   
+    margin-top: 20px;
+    width: 95%;
+}
+h2{
+    margin: 10% 10%;
+}
+#formulaire p{
+    width: 80%;
     color: gray;
+    margin: 10% 10%;
 }
-/* ###########COMPETENCES############ */
-#titre_competences{
-    color: white;
-    text-align: center;
-}
-#competences{
+
+
+
+/* ##############"landing-page-################" */
+
+#s-block{
+    position: relative;
+    display: block;
     width: 80%;
+ 
     background-color: white;
-    margin: auto;
+    margin: 10% 10%;
+    
     
 }
-#competences div,p{
-    display: block;
-    text-align: center;
-}
-/* ###############-SERVICES-############### */
-#troisieme_titre{
-    text-align: center;
-}
-#calendrier{
+#first_block {
+    
+    margin: 0 auto;
     width: 80%;
-    background-color: white;
-    margin: auto;
-    padding: 20px 0;
-}
-#calendrier div,p{
-    display: block;
+    justify-content: space-between;
     text-align: center;
 }
-#prix{
+#first_block div{
+    padding: 10% 0;
+} 
+
+#second_block{
+    
+    top: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
     width: 80%;
-    background-color: white;
-    margin: auto;
-    padding: 20px 0;
-}
-#prix div,p{
-    display: block;
     text-align: center;
-}
-#rapidite_service{
-    width: 80%;
-    background-color: white;
-    margin: auto;
-    padding: 20px 0;
-}
-#rapidite_service div,p{
-    display: block;
-    text-align: center;
-}
-#hygiene{
-    width: 80%;
-    background-color: white;
-    margin: auto;
-    padding: 20px 0;
-}
-#hygiene div,p{
-    display: block;
-    text-align: center;
-}
-#services div{
-    margin: 10% auto;
-    display: block;
+    justify-content: space-between;
     
 }
-/* ###############-Foire-aux-questions-############
- */
-#faq img{
+ #second_block div{
+    padding: 10% 0;
+} 
+
+
+
+
+
+/* ####################nos-services-###############"" */
+.services div{
+    
+    border: 2px solid black;
+    background-color: green;
     width: 80%;
-    height: 400px;
-    margin: 20% 10%;
-    
-} 
-#p_faq{
-    font-weight: bold;
-    color: #145AE2;
+ 
+    margin: 10% 10%
+
 }
-#p3_faq{
-    color: grey;
-} 
-#appelez{
-    margin: 10% 15%;
-    background-color: blue;
-    color: white;
-    width: 200px;
-    padding: 20px;
-    font-size: 20px;
-    cursor: pointer;
-} 
-/* ##############-footer-############# */
-footer p{
-    color: grey;
-} 
-.title{
-    font-weight: bold;
-    color: black;
-    
-}  
-footer img{
-    margin: 2% 25%;
-}
+
+
+
+
+@media screen and (min-width:901px) {
+    .f-block{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    #services{
+        width: 85%;
+      }
+      .services{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #s-block{
+        width: 80%;
+        height: 100vh;
+        background-image: url(../images/car-background-2-1024x708.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #first_block{
+        display: flex;
+    }
+    #second_block{
+        display: flex;
+    }
+    h2{
+        text-align: center;
+    }
     
        
-       
+   
+    
+}
+@media screen and (max-width:900px){
+    .nav-links{
+        z-index: 2;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.288);
+        backdrop-filter: blur(4px);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    } 
+    .nav-links ul{
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links.mobile-menu{
+        
+        margin-left: 0;
+    }
+    #burger{
+        position: absolute;
+        z-index: 2;
+        display: block;
+    }
+    .nav-links ul li{
+        margin: 25px 0;
+        font-size: 1.5em;
+    }
+    #livreur{
+        width:100% ;
+        height: 100vh;
+    }
+    h2{
+        text-align: center;
+    }
+}

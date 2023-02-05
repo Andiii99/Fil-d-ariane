@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,281 +8,167 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
+        
+        
+           <header>
+                <nav class="navbar">
+                    <div>
+                        <img  src="images/logo-kf-white.png" alt="logo">
+                    </div>
+                    <div class="nav-links">
 
-    
-            <header>
-                <div>
-                    <img id="logo" src="images/logo-kf-white.png" alt="logo">
-                    <img id="burger_menu" src="images/burgerMenu.png" alt="burgerMenu">
-                </div>
-                <nav >
-                    <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Nos sercices</a></li>
-                        <li><a href="#">Contact</a></li>
-                    
-                    </ul>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="#">Nos Competences</a></li>
+                            <li><a href="#">Nos services</a></li>
+                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div >
+                        <img id="burger" src="images/burgerMenu.png" alt="burgerMenu">
+                    </div>
                 </nav>
-                <div>
-                    <button id="numero">
-                        +330675872019
-                    </button>
-                </div> 
             </header>
-            <section class="carre">
-                <article id="top-page">
-                    <div class="texte">
+         <!-- ######################-top-page-###################### -->
+            <section>
+                <article class="f-block">
+                    <div id="image">
+                        
+                        <img id="livreur"src="images/envoi-colis.jpg" alt="livreur">
+                        
                         <h1>KF Transport</h1>
-                        <p>
-                            
+                        <p id="first">
                             Services de livraison de colis professionnels et particuliers situé partout en Lorraine  et en France.
                         </p>
-                        <p>
+                        
+
+                        
+                        <p id="second">
                             N'hésitez pas à nous contacter via le formulaire ci-joint mais également par téléphone. Nous nous ferons un plaisir de vous répondre et de vous envoyer un devis dans les plus brefs délais.
-                        </p>
-                        <p>
+                        
+                    
                             A très bientot!
-                        </p>
-                        <button>
-                            Nos Services
-                        </button>
+                        </p> 
 
                     </div>
-                    
-                    
-                </article>
-                
-                <article id="formulaire">
-                <div id="form">
-                    <img src="images/delivery-truck-design-template-e31a5cad5b37024064f40cb2ab587527_screen.jpg" alt="CAMION">
-                    <h2 id="deuxieme_titre">KF Transport</h2>
-                    <form action="" method="get" class="form-example">
-                        <div class="form-example">
-                        <label for="name">Enter your name: </label>
-                        <input type="text" name="name" id="name" required>
-                        </div>
-                        <div class="form-example">
-                        <label for="email">Enter your email: </label>
-                        <input type="email" name="email" id="email" required>
-                        </div>
-                    </form>
-                    
-                    <button>
-                    ENVOYER
-                    </button>
-                    <div>
-                        <p id="paragraph">
+
+                    <div id="formulaire">
+                         <img id="truck" src="images/delivery-truck-design-template-e31a5cad5b37024064f40cb2ab587527_screen.jpg" alt="truck">
+                         <h2>KF Transport</h2>
+                         <form method="post" action="" enctype="multipart/form-data">
+                            <label for="prenom"></label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Votre prenom*"><br>
+                            <label for="prenom"></label>
+                             <input type="text" id="telephone"
+                             name="prenom" placeholder="Votre numero de telephone*">
+                             <select id="services" name="pays">
+                                <optgroup label="Nos services">
+                                    <option value="fr">Livraison particulaires</option>
+                                    <option value="fr">Courrier particuliers</option>
+                                    <option value="es" selected>Nos services</option>
+                                </optgroup>
+                            </select><br>
+                         </form>
+                         <p>
                             Conformément à la Loi « Informatique et Libertés » n°78-17 du 6 janvier 1978 modifiée en 2004, vous disposez d’un droit d’accès, de rectification et de suppression des données qui vous concernent. Vous pouvez l’exercer en adressant un e-mail à l’adresse électronique suivante : contact@kftransport.com Conformément à l’article L.223-2 du code de la consommation, vous disposez du droit de vous inscrire sur la liste d’opposition au démarchage téléphonique, accessible sur le site internet www.bloctel.gouv.fr
-                        </p>
+                         </p>
+                             
                     </div>
-                </div>
                 </article>
             </section>
-            <!-- ###########-COMPETENCES-###################### -->
-            <section >
-            <h2 id="titre_competences">NOS COMPÉTENCES</h2>
-            <article id="competences">
-                <div>
-                    <img src="images/icons8-analytics-48.png" alt="image de graphique">
-                    <p>
-                        10
-                    </p>
-                    <p>
-                        Ans d'Experience
-                    </p>
-                </div>
-                <div>
-                    <img src="images/icons8-conférence-téléphonique-48.png" alt="logo">
-                    <p>
+        
+            <!-- ##################-landing-page-################# -->
+    
+             <section>
+                <article id="s-block">
+                     <div  id="first_block"> 
+                        <div>
+                            <img src="images/icons8-analytics-48.png" alt="logo">
+                            <p>
+                                10
+                            </p>
+                            <p>
+                                Ans d'Experience
+                            </p>
+                        </div>
+                        <div>
+                            <img src="images/icons8-conférence-téléphonique-48.png" alt="logo">
+                            <p>
+                                4
+                            </p>
+                            <p>
+                                Employes
+                            </p>
+                        </div>
+                    </div> 
+      
+                     <div  id="second_block">   
+                        <div>
+                                <img src="images/icons8-mail-48.png" alt="logo">
+                                <p>
+                                    4K
+                                </p>
+                                <p>
+                                    Colis/courriers/livrés
+                                </p>
+                        </div>
+                        <div>
+                            <img src="images/icons8-berline-48.png" alt="logo">
+                        
+                        
+
+                            <p>
+                                400K
+                            </p>
+                            <p>
+                                kms Parcourus
+                            </p>
+                        </div>
+                    <!-- </div>     -->
+                </article>
+             </section>
+             <!-- ##############""-nos-services-############### -->
+             <section>
+                  <h2>NOS SERVICES</h2>
+                <article class="services">
+                   <div>
+                          1
+                   </div>
+                   <div>
+                        2
+                   </div>
+                </article>
+                <article class="services_2">
+                    <div>
+                        3
+                    </div>
+                    <div>
                         4
-                    </p>
-                    <p>
-                        Empoyés
-                    </p>
-                </div>
-                <div>
-                    <img src="images/icons8-mail-48.png" alt="logo-email">
-                    <p>
-                        4K
-                    </p>
-                    <p>
-                        Colis/courriers livrés
-                    </p>
-                </div>
-                <div>
-                    <img src="images/icons8-berline-48.png" alt="logo-voiture">
-                    <p>
-                        400K
-                    </p>
-                    <p>
-                        kms Parcours
-                    </p>
-                </div>
-            </article>
-        </section>
-    </main>
-    <!-- ##########################-SERVICES-########################## -->
-    <section>
-        <h2 id="troisieme_titre">NOS SERVICES</h2>
-        <article id="services">
-            <div id="calendrier">
-                <div>
-
-                    <img src="images/icons8-calendrier-96.png" alt="logo-calendrier">
-                    <p>
-                    <strong>Disponibilites au Rendez-vous!</strong>
-                    </p>
-                    <p>
-                        Nous nous rendons disponibles pour nos clients 6/7j afin d’offrir des prestations de qualité.
-                    </p>
-                </div>
-            </div>
-            <div id="prix">
-                <div>
-                    <img src="https://place-hold.it/96x96" alt="logo-euro">
-                    <p>
-                    <strong>Des Prix Attractifs</strong>
-                    </p>
-                    <p>
-                        Nos prix sont étudiés et calculés au cas par cas mais restent parmi les moins chers du marché.
-
-                    </p>
-                </div>
-
-            </div>
-            <div id="rapidite_service">
-            <div>
-                <img src="https://place-hold.it/96x96" alt="logo-montre">
-            </div>
-            <p>
-                Nos prestations sont rapides et accomplies dans les délais les plus courts possibles. Nous avons également un service « Ilikho Prestation » qui garantit une livraison dans les 24 heures.
-            </p>
-            </div>
-            <div id="hygiene"> 
-                <div>
-                    <img src="https://place-hold.it/96x96" alt="logo-hygiene">
-                </div>
-                <p>
-                    <strong>Respect des régles d'hygiéne</strong>
-                </p>
-                <p>
-                    Nos livreurs sont formés à respecter les règles d’hygiènes et de sécurité en vigueur.
-                </p>
-
-            </div>
-
-        </article>
-    </section>
-    <!-- ########################-Foire-aux-questions###################### -->
-    <section>
-        <article id="faq">
-            <div>
-                <img src="images/question-1024x1024-1.png" alt="logo_faq">
-            </div>
-            <div>
-                <p id="p_faq">
-                    FAQ
-                </p>
-                <p>
-                    <strong>Foire Aux Questions</strong>
-                </p>
-                <p id="p3_faq">
-                    Retrouvez les questions les plus fréquement posées
-                </p>
+                    </div>
+                </article>
+             </section>
             
-             <hr>
-            
-                <p>
-                   <strong> Dans combien de temps aurais-je mon devis?</strong>
-                </p>
-                <hr>
-                <p>
-                    <strong>
-                        Comment faire si je ne suis pas disponible pour récupérer mon colis ou mon courrier?
-                    </strong>
-                </p>
-                <hr>
-                <p>
-                    <strong>
-                        Puis-je payer en carte bancaire ou par paypal?
-                    </strong>
-                </p>
-                <hr>
-                <button id="appelez">
-                    NOUS APPELEZ
-                </button>
-            </div>
-        </article>
-    </section>
-    <footer>
-        <article id="footer">
-            <div>
-                <p class="title">
-                    Company
-                </p>
-                <p>
-                    Accueil
-                </p>
-                <P>
-                    Nos Competences
-                </P>
-                <p>
-                    Nos Services
-                </p>
-                <p>
-                    FAQ
-                </p>
-                <p></p>
-            </div>
-            <div>
-                <p class="title">
-                    Services
-                </p>
-                <p>
-                    Colis Particuliers
-                </p>
-                <p>
-                    Colis Proffesionels
-                </p>
-                <p>
-                    Courrier Particuliers
-                </p>
-                <p>
-                    Courrier Proffesionnels
-                </p>
-                <p>
-                    Devis Gratuit
-                </p>
-            </div>
-            <div>
-                <p class="title">
-                    Nous contacter
-                </p>
-                <p>
-                    Phone: (+33) 725489123
-                </p>
-                <p>
-                    Vous avez besoin d'aide ou une question ?
-                </p>
-                <p>
-                    Contact us at:
-                </p>
-                <p>
-                    contact@kftransport.com
-                </p>
-            </div>
-            <div>
-                <img src="images/logo-1.png" alt="logo-png">
-                <p>
-                    KF Transport est une société située à Metz et qui propose des prestations de livraison (pro et particuliers) sur toute la Lorraine et partout en France.
-                </p>
-                <p>
-                    N'hésitez pas à nous contacter afin d'obtenir un devis dans les plus brefs délais. KF Transport: notre objectif, votre satisfaction.
-                </p>
-            </div>
-        </article>
-    </footer>
 
+
+
+
+
+
+
+
+
+
+
+
+    
 </body>
+<script>
+    const menuHamburger = document.querySelector("#burger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 </html>
