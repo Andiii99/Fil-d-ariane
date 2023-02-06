@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div>
+                <img  src="../images/logo-kf-white.png" alt="logo">
+            </div>
+            <div class="nav-links">
+
+                <ul>
+                    <li><a href="../index.html" target="_blank">Accueil</a></li>
+                    <li><a href="../index.html#s-block">Nos Competences</a></li>
+                    <li><a href="../index.html#nos-services">Nos services</a></li>
+                    <li><a href="../pages/faq.html" target="_blank">Faq</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div >
+                <img id="burger" src="../images/burgerMenu.png" alt="burgerMenu">
+            </div>
+        </nav>
+    </header>
+    <main>
+<!-- ##############-formulaire-##################"" -->
+        <section id="cont">
+            <article id="contact">
+                <div id="para">
+                    <p>
+                        Nous appeler: +330626237119
+                    </p>
+                    <p class="import">
+                        KF Transport:
+                    </p>
+                    <p class="import">
+                        Notre objectif
+                    </p>
+                    <p class="import">
+                        votre satisfaction
+                    </p>
+                    <button>
+                        NOS SERVICES
+                    </button>
+                </div>
+    <!-- ####################-seccond-block-################            -->
+                <div id="form_contact">
+                        
+                        <h2>Formulaire de contact</h2>
+                        <h3>Contactez-nous</h3>
+                        <form method="post" action="" enctype="multipart/form-data">
+                           <label for="prenom"></label>
+                           <input type="text" id="prenom" name="prenom" placeholder="Votre prenom*"><br>
+                           <label for="prenom"></label>
+                            <input type="text" id="telephone"
+                            name="prenom" placeholder="Votre numero de telephone*">
+                            <select id="services" name="pays">
+                               <optgroup label="Nos services">
+                                   <option value="fr">Livraison particulaires</option>
+                                   <option value="fr">Courrier particuliers</option>
+                                   <option value="es" selected>Nos services</option>
+                               </optgroup>
+                           </select><br>
+                        </form>
+                        <p>
+                            Conformément à la Loi « Informatique et Libertés » n°78-17 du 6 janvier 1978 modifiée en 2004, vous disposez d’un droit d’accès, de rectification et de suppression des données qui vous concernent. Vous pouvez l’exercer en adressant un e-mail à l’adresse électronique suivante : contact@kftransport.com Conformément à l’article L.223-2 du code de la consommation, vous disposez du droit de vous inscrire sur la liste d’opposition au démarchage téléphonique, accessible sur le site internet www.bloctel.gouv.fr
+                         </p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script>
+        const menuHamburger = document.querySelector("#burger")
+        const navLinks = document.querySelector(".nav-links")
+    
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
