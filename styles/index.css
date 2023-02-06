@@ -302,6 +302,15 @@ footer div p{
     #para p{
           margin: 50px 20px;
     }
+    #paragraph_titre{
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+    }
+    #paragraph_titre h2{
+        font-size: 35px;
+    }
+   
    
 
     /* #footer p{
@@ -357,5 +366,14 @@ footer div p{
     .nav-links ul a{
         color: rgb(0, 106, 255);
     } 
+    #paragraph_titre{
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+    }
+    #paragraph_titre h2{
+        font-size: 35px;
+    }
+
    
 }
