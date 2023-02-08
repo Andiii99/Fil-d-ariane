@@ -310,6 +310,12 @@ footer div p{
     #paragraph_titre h2{
         font-size: 35px;
     }
+    #clock{
+        background-color: white;
+    }
+    #microb{
+        background-color: white;
+    }
    
    
 
@@ -374,6 +380,11 @@ footer div p{
     #paragraph_titre h2{
         font-size: 35px;
     }
-
+    #clock{
+        background-color: white;
+    }
+    #microb{
+        background-color: white;
+    }
    
 }
