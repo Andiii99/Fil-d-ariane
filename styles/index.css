@@ -319,8 +319,9 @@ footer div p{
         background-color: white;
     }
     #truck{
-        width: 62px;
-        height: 33px;
+        /* width: 62px;
+        height: 33px; */
+        margin: 5% 42%;
     }
    
    
